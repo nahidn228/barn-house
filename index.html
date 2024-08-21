@@ -34,6 +34,7 @@
               clifford: "#da373d",
               "main-color": "rgb(171, 239, 95)",
               "main-bn-color": "rgba(171, 239, 95, 0.5)",
+              "section-bg": "#f4f4f4",
             },
           },
         },
@@ -124,7 +125,8 @@
             sophistication, featuring weathered wood, sleek metal accents, and
             large windows that flood the space with natural light.
           </p>
-          <a class="btn bg-main-bn-color text-lg font-extrabold mt-8 w-full md:w-fit"
+          <a
+            class="btn bg-main-bn-color text-lg font-extrabold mt-8 w-full md:w-fit"
             >View Details
             <i
               class="fa-solid fa-arrow-right-long bg-main-color rounded-full p-1 -rotate-45"
@@ -134,7 +136,78 @@
       </section>
     </header>
 
-    <main class="border-2 border-red-700"></main>
+    <main class="">
+      <!-- We design thoughtful, section -->
+      <section class="bg-section-bg py-24">
+        <div
+          class="w-11/12 md:max-w-screen-xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-4  items-center justify-center relative"
+        >
+          <!-- text section -->
+          <div class="">
+            <img
+              class="absolute hidden lg:flex -top-4 -left-14"
+              src="./assets/Vector.png"
+              alt=""
+            />
+            <a href="#" class="btn bg-white mt-4"
+              ><i class="fa-solid fa-arrow-right-long"></i> About Us</a
+            >
+            <h3 class="font-black text-3xl md:text-4xl mt-6">
+              We design thoughtful, liveable spaces
+            </h3>
+            <p class="text-base font-medium mt-6">
+              The barn house captivates with its blend of rustic charm and
+              modern sophistication, featuring weathered wood, sleek metal
+              accents.
+            </p>
+            <!-- Cards -->
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-1 gap-4 mt-4">
+              <!-- Card-1 -->
+
+              <div class="card card-side bg-base-100 shadow-xl p-4">
+                <figure>
+                  <img
+                    class="p-4 w-20 lg:w-full"
+                    src="./assets/commercial.png"
+                    alt="The barn house captivates with its blend of rustic charm and modern."
+                  />
+                </figure>
+                <div class="card-body p-0 ml-4">
+                  <h2 class="card-title font-extrabold text-xl">Commercial</h2>
+                  <p class="text-gray-500 text-lg">
+                    The barn house captivates with its blend of rustic charm and
+                    modern.
+                  </p>
+                </div>
+              </div>
+              <!-- Card-2 -->
+
+              <div class="card card-side bg-base-100 shadow-xl p-4">
+                <figure>
+                  <img
+                    class="p-4 w-20  lg:w-full"
+                    src="./assets/residential.png"
+                    alt="The barn house captivates with its blend of rustic charm and modern."
+                  />
+                </figure>
+                <div class="card-body p-0 ml-4">
+                  <h2 class="card-title font-extrabold text-xl">Residential</h2>
+                  <p class="text-gray-500 text-lg">
+                    The barn house captivates with its blend of rustic charm and
+                    modern.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- image section -->
+          <div class="justify-self-center">
+            <img src="./assets/Rectangle.png" alt="" />
+          </div>
+        </div>
+      </section>
+    </main>
 
     <footer></footer>
   </body>
