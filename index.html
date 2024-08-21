@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>A barn house</title>
 
     <!-- Google Font -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -33,6 +33,7 @@
             colors: {
               clifford: "#da373d",
               "main-color": "rgb(171, 239, 95)",
+              "main-bn-color": "rgba(171, 239, 95, 0.5)",
             },
           },
         },
@@ -106,9 +107,7 @@
         </div>
       </nav>
       <!-- Banner section -->
-      <section
-        class="flex flex-col justify-center items-center text-center border-2 border-red-700"
-      >
+      <section class="flex flex-col justify-center items-center text-center">
         <!-- banner image -->
 
         <div>
@@ -125,11 +124,17 @@
             sophistication, featuring weathered wood, sleek metal accents, and
             large windows that flood the space with natural light.
           </p>
+          <a class="btn bg-main-bn-color text-lg font-extrabold mt-8 w-full md:w-fit"
+            >View Details
+            <i
+              class="fa-solid fa-arrow-right-long bg-main-color rounded-full p-1 -rotate-45"
+            ></i>
+          </a>
         </div>
       </section>
     </header>
 
-    <main></main>
+    <main class="border-2 border-red-700"></main>
 
     <footer></footer>
   </body>
