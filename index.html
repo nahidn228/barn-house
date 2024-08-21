@@ -47,9 +47,9 @@
     </style>
   </head>
   <body class="font-manrope">
-    <header class="w-11/12 md:max-w-screen-xl mx-auto">
+    <header class="w-11/12 md:max-w-screen-xl mx-auto md:px-16">
       <!-- Nav section -->
-      <nav class="">
+      <nav class="py-5">
         <div class="navbar bg-base-100">
           <div class="navbar-start">
             <a class="text-2xl font-bold">
@@ -89,12 +89,12 @@
               </ul>
             </div>
             <div class="hidden lg:flex overflow-hidden">
-              <a href="#"
+              <a href="#" class="mr-2"
                 ><i
                   class="fa-solid fa-magnifying-glass bg-white rounded-full p-3"
                 ></i
               ></a>
-              <a href="#"
+              <a href="#" class="mr-2"
                 ><i
                   class="fa-solid fa-cart-shopping bg-white rounded-full p-3"
                 ></i
@@ -136,11 +136,11 @@
       </section>
     </header>
 
-    <main class="">
+    <main class=" md:mx-16">
       <!-- We design thoughtful, section -->
       <section class="bg-section-bg py-24">
         <div
-          class="w-11/12 md:max-w-screen-xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-4  items-center justify-center relative"
+          class="w-11/12 md:max-w-screen-xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-4 items-center justify-center relative mb-24"
         >
           <!-- text section -->
           <div class="">
@@ -162,7 +162,9 @@
             </p>
             <!-- Cards -->
 
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-1 gap-4 mt-4">
+            <div
+              class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-1 gap-4 mt-4"
+            >
               <!-- Card-1 -->
 
               <div class="card card-side bg-base-100 shadow-xl p-4">
@@ -186,7 +188,7 @@
               <div class="card card-side bg-base-100 shadow-xl p-4">
                 <figure>
                   <img
-                    class="p-4 w-20  lg:w-full"
+                    class="p-4 w-20 lg:w-full"
                     src="./assets/residential.png"
                     alt="The barn house captivates with its blend of rustic charm and modern."
                   />
@@ -204,6 +206,97 @@
           <!-- image section -->
           <div class="justify-self-center">
             <img src="./assets/Rectangle.png" alt="" />
+          </div>
+        </div>
+
+        <!-- overview section -->
+
+        <div
+          class="w-11/12 md:max-w-screen-xl mx-auto  p-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 bg-white rounded-2xl mb-24"
+        >
+          <!-- card - 1 -->
+          <div class="text-center">
+            <i class="fa-regular fa-message text-2xl text-gray-700"></i>
+            <h2 class="font-extrabold text-2xl py-2">235+</h2>
+            <p class="text-base text-gray-600">Happy Client Review</p>
+          </div>
+          <!-- card - 2 -->
+          <div class="text-center">
+            <i class="fa-regular fa-building text-2xl text-gray-700"></i>
+            <h2 class="font-black text-2xl py-2">50+</h2>
+            <p class="text-base text-gray-600">Work Departments</p>
+          </div>
+          <!-- card - 3 -->
+          <div class="text-center">
+            <i class="fa-solid fa-users text-2xl text-gray-700"></i>
+            <h2 class="font-black text-2xl py-2">30K+</h2>
+            <p class="text-base text-gray-600">Our Happy Client</p>
+          </div>
+          <!-- card - 4 -->
+          <div class="text-center">
+            <i class="fa-solid fa-user-group text-2xl text-gray-700"></i>
+            <h2 class="font-black text-2xl py-2">307+</h2>
+            <p class="text-base text-gray-600">Staff Members</p>
+          </div>
+        </div>
+
+        <!-- Our Works Process section -->
+
+        <div class="w-11/12 md:max-w-screen-xl mx-auto ">
+          <!-- Works Process text section -->
+
+          <div class="text-center lg:w-1/2 mx-auto mb-8">
+            <a href="#" class="btn bg-white mt-4"
+              ><i class="fa-solid fa-arrow-right-long"></i> How we works</a
+            >
+            <h3 class="font-black text-3xl md:text-4xl mt-6">
+              Our Works Process
+            </h3>
+            <p class="text-base font-medium mt-6">
+              The barn house captivates with its blend of rustic charm and
+              modern sophistication, featuring weathered wood, sleek metal
+              accents.
+            </p>
+          </div>
+
+          <!-- Works Process cards -->
+          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 ">
+            <!-- card - 1 -->
+            <div class="flex flex-col bg-fuchsia-300 rounded-2xl p-5">
+              <img class="w-10" src="./assets/concept.png" alt="" />
+              <h2 class="font-extrabold text-xl py-2">Concept</h2>
+              <p class="text-base text-gray-600">
+                The barn house captivates with its blend of rustic charm and
+                modern.
+              </p>
+            </div>
+            <!-- card - 2 -->
+            <div class="flex flex-col bg-orange-300 rounded-2xl p-5">
+              <img class="w-10" src="./assets/flow-chart.png" alt="" />
+              <h2 class="font-extrabold text-xl py-2">Design Process</h2>
+              <p class="text-base text-gray-600">
+                The barn house captivates with its blend of rustic charm and
+                modern.
+              </p>
+            </div>
+            <!-- card - 3 -->
+            <div class="flex flex-col bg-green-300 rounded-2xl p-5">
+              <img class="w-10" src="./assets/vision.png" alt="" />
+              <h2 class="font-extrabold text-xl py-2">Supervision</h2>
+              <p class="text-base text-gray-600">
+                The barn house captivates with its blend of rustic charm and
+                modern.
+              </p>
+            </div>
+            <!-- card - 4 -->
+            <div class="flex flex-col bg-blue-300 rounded-2xl p-5">
+              <img class="w-10" src="./assets/budget-planning.png" alt="" />
+              <h2 class="font-extrabold text-xl py-2">Budget Planning</h2>
+              <p class="text-base text-gray-600">
+                The barn house captivates with its blend of rustic charm and
+                modern.
+              </p>
+            </div>
           </div>
         </div>
       </section>
