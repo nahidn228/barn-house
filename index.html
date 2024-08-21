@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="cupcake">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -32,6 +32,7 @@
           extend: {
             colors: {
               clifford: "#da373d",
+              "main-color": "rgb(171, 239, 95)",
             },
           },
         },
@@ -44,6 +45,69 @@
     </style>
   </head>
   <body class="font-manrope">
-<h1>hi i am css</h1>
+    <header class="max-w-screen-xl mx-auto">
+      <!-- Nav section -->
+      <nav class="">
+        <div class="navbar bg-base-100">
+          <div class="navbar-start">
+            
+            <a class="text-2xl font-bold">
+              <i
+                class="fa-solid fa-arrow-right-long bg-main-color rounded-full p-1 -rotate-45"
+              ></i>
+              Rinterio
+            </a>
+          </div>
+          <div class="navbar-center hidden lg:flex">
+            <ul class="menu menu-horizontal text-base px-1 font-semibold">
+              <li class="text-black"><a>Home</a></li>
+              <li class="text-gray-500"><a>Services</a></li>
+              <li class="text-gray-500"><a>Portfolio</a></li>
+              <li class="text-gray-500"><a>Blogs</a></li>
+              <li class="text-gray-500"><a>Contact Us</a></li>
+            </ul>
+          </div>
+          <div class="navbar-end">
+            <div class="dropdown">
+              <div tabindex="0" role="button" class="btn btn-ghost lg:hidden mr-10">
+                <i class="fa-solid fa-burger text-4xl"></i>
+              </div>
+              <ul
+                tabindex="0"
+                class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 shadow"
+              >
+                <li><a>Home</a></li>
+                <li><a>Services</a></li>
+                <li><a>Portfolio</a></li>
+                <li><a>Blogs</a></li>
+                <li><a>Contact Us</a></li>
+              </ul>
+            </div>
+             <div class="hidden lg:flex overflow-hidden">
+              <a href="#"
+              ><i
+                class="fa-solid fa-magnifying-glass bg-white rounded-full p-3"
+              ></i
+            ></a>
+            <a href="#"
+              ><i
+                class="fa-solid fa-cart-shopping bg-white rounded-full p-3"
+              ></i
+            ></a>
+            <a class="btn bg-main-color text-lg font-extrabold"
+              >Book Consult
+              <i class="fa-solid fa-circle-arrow-right text-xl -rotate-45"></i
+            ></a>
+             </div>
+            
+           
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main></main>
+
+    <footer></footer>
   </body>
 </html>
