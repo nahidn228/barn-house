@@ -47,9 +47,9 @@
     </style>
   </head>
   <body class="font-manrope">
-    <header class="w-11/12 md:max-w-screen-xl mx-auto md:px-16">
+    <header class="w-11/12 md:max-w-screen-xl mx-auto">
       <!-- Nav section -->
-      <nav class="py-5">
+      <nav class="py-5 md:px-20">
         <div class="navbar bg-base-100">
           <div class="navbar-start">
             <a class="text-2xl font-bold">
@@ -108,7 +108,9 @@
         </div>
       </nav>
       <!-- Banner section -->
-      <section class="flex flex-col justify-center items-center text-center">
+      <section
+        class="flex flex-col justify-center items-center text-center md:px-20"
+      >
         <!-- banner image -->
 
         <div>
@@ -136,11 +138,12 @@
       </section>
     </header>
 
-    <main class=" md:mx-16">
-      <!-- We design thoughtful, section -->
+    <main class="">
+      <!-- We design + overview + Our Works section -->
       <section class="bg-section-bg py-24">
+        <!-- We design thoughtful section -->
         <div
-          class="w-11/12 md:max-w-screen-xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-4 items-center justify-center relative mb-24"
+          class="w-11/12 md:max-w-screen-xl mx-auto md:px-20 grid grid-cols-1 lg:grid-cols-2 gap-4 items-center justify-center relative mb-24"
         >
           <!-- text section -->
           <div class="">
@@ -212,7 +215,7 @@
         <!-- overview section -->
 
         <div
-          class="w-11/12 md:max-w-screen-xl mx-auto  p-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 bg-white rounded-2xl mb-24"
+          class="w-11/12 md:max-w-screen-xl mx-auto  p-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-2 bg-white rounded-2xl mb-24"
         >
           <!-- card - 1 -->
           <div class="text-center">
@@ -242,10 +245,10 @@
 
         <!-- Our Works Process section -->
 
-        <div class="w-11/12 md:max-w-screen-xl mx-auto ">
+        <div class="w-11/12 md:max-w-screen-xl mx-auto md:px-20">
           <!-- Works Process text section -->
 
-          <div class="text-center lg:w-1/2 mx-auto mb-8">
+          <div class="text-center lg:w-1/2 mx-auto mb-8 md:px-20">
             <a href="#" class="btn bg-white mt-4"
               ><i class="fa-solid fa-arrow-right-long"></i> How we works</a
             >
@@ -260,7 +263,7 @@
           </div>
 
           <!-- Works Process cards -->
-          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 ">
+          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
             <!-- card - 1 -->
             <div class="flex flex-col bg-fuchsia-300 rounded-2xl p-5">
               <img class="w-10" src="./assets/concept.png" alt="" />
@@ -298,6 +301,105 @@
               </p>
             </div>
           </div>
+        </div>
+      </section>
+
+      <!-- Our Latest Portfolio section -->
+
+      <section class="w-11/12 md:max-w-screen-xl mx-auto lg:px-20 my-20">
+        <!-- Latest Portfolio text section -->
+
+        <div class="text-center lg:w-2/3 mx-auto mb-8 md:px-20">
+          <a href="#" class="btn bg-white mt-4"
+            ><i class="fa-solid fa-arrow-right-long"></i> Explore our Latest
+            works</a
+          >
+          <h3 class="font-black text-3xl md:text-4xl mt-6">
+            Our Latest Portfolio
+          </h3>
+          <p class="text-base font-medium mt-6">
+            The barn house captivates with its blend of rustic charm and modern
+            sophistication, featuring weathered wood, sleek metal accents.
+          </p>
+        </div>
+
+        <!-- Latest Portfolio Cards -->
+        <div class="grid grid-cols-1  md:grid-cols-4 gap-4 items-center justify-center">
+
+          <!-- grid 1 -->
+            <div class=" col-span-1 lg:col-span-3 md:col-span-4 order-1 lg:order-none card md:card-side bg-base-100 shadow-xl ">
+              <figure class="w-full">
+                <img
+                  src="./assets/img1.png"
+                  alt="Commercial"  />
+                  
+              </figure>
+              <div class="card-body ">
+                <h2 class="card-title">Commercial</h2>
+                <p>The barn house captivates with its blend of rustic charm and modern. The barn house captivates with its blend of rustic charm and modern .</p>
+                <!-- Card button -->
+                <div class="card-actions">
+                  <a
+                  class="btn bg-white text-lg font-extrabold "
+                  >View Details
+                  <i
+                    class="fa-solid fa-arrow-right-long bg-main-color rounded-full p-1 -rotate-45"
+                  ></i>
+                </a>
+                </div>
+              </div>
+            </div>
+
+             <!-- grid 2 -->
+          
+             <div class="col-span-1 md:col-span-2 lg:col-span-1 lg:order-none order-2">
+              <img src="./assets/img2.png" alt="" class="w-full">
+             </div>
+
+              <!-- grid 3 -->
+
+            <div class="col-span-1 md:col-span-2 lg:col-span-1 lg:order-none order-3">
+              <img src="./assets/img3.png" alt="" class="w-full">
+            </div>
+
+            <!-- grid 4 -->
+
+            <div class=" col-span-1 md:col-span-4 lg:col-span-2 lg:order-none order-4 card md:card-side bg-base-100 shadow-xl ">
+              <figure class="w-full" >
+                <img
+                  src="./assets/img4.png"
+                  alt="Commercial" class="w-full"/>
+                  
+              </figure>
+              <div class="card-body">
+                <h2 class="card-title">Commercial</h2>
+                <p>The barn house captivates with its blend of rustic charm and modern. The barn house captivates with its blend of rustic charm and modern .</p>
+                <!-- Card button -->
+                <div class="card-actions">
+                  <a
+                  class="btn bg-white text-lg font-extrabold "
+                  >View Details
+                  <i
+                    class="fa-solid fa-arrow-right-long bg-main-color rounded-full p-1 -rotate-45"
+                  ></i>
+                </a>
+                </div>
+              </div>
+            </div>
+
+             <!-- grid 5 -->
+           
+             <div class="col-span-1 md:col-span-2 lg:col-span-1 lg:order-none order-6">
+              <img src="./assets/img5.png" alt="" class="w-full">
+             </div>
+
+              <!-- grid 6 -->
+
+             <div class=" lg:hidden md:visible md:col-span-2 lg:order-none order-5">
+              <img src="./assets/img3.png" alt="" class="w-full">
+             </div>
+
+           </div>
         </div>
       </section>
     </main>
